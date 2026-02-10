@@ -1,4 +1,4 @@
-/* Reset & base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +10,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-}
 
-/* Header */
 header {
     background: #111;
     color: #fff;
@@ -33,8 +31,6 @@ header p {
     font-size: 1rem;
     color: #ccc;
 }
-
-/* Intro section */
 #intro {
     padding: 30px;
     text-align: center;
@@ -47,7 +43,7 @@ header p {
     font-size: 1.1rem;
 }
 
-/* Gallery */
+
 #gallery {
     padding: 40px 20px;
     background: #eee;
@@ -91,8 +87,6 @@ header p {
     margin-top: 10px;
     font-weight: 600;
 }
-
-/* About Me */
 #bio {
     padding: 40px 20px;
     background: #fff;
@@ -120,7 +114,7 @@ header p {
     font-size: 1.05rem;
 }
 
-/* Contact */
+
 #contact {
     padding: 40px 20px;
     background: #eee;
@@ -173,7 +167,7 @@ button:hover {
     background: #444;
 }
 
-/* Footer */
+
 footer {
     background: #111;
     color: #ccc;
@@ -182,7 +176,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsive tweaks */
+
 @media (max-width: 768px) {
     #bio {
         flex-direction: column;
@@ -193,3 +187,4 @@ footer {
         text-align: left;
     }
 }
+
